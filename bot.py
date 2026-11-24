@@ -5,7 +5,7 @@ import telebot
 from github import Github, Auth
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN") or "9167671951:AAHRQ03bZiOv_pgermbFSlqsBeyLJ3t-RJk"
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or "Ghp_lk2KT4MTDn5QYN6Aqf1HFDtSXTTSlQ0xZuRY"
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or "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"
 TARGET_REPO = os.environ.get("TARGET_REPO") or "kokosoegyiaung2018-del/my-website"
 ADMIN_ID = int(os.environ.get("ADMIN_ID") or "7217813072")
 
